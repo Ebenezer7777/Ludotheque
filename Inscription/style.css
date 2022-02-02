@@ -1,0 +1,43 @@
+.box1 {
+    width: 500px;
+    background-color: rgb(33, 126, 143);
+    margin: 80px auto;
+    opacity: .8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.box {
+    height: 800px;
+    width: 500px;
+    background-color: rgb(33, 126, 143);
+    margin: 80px auto;
+    opacity: .8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+form .f {
+    margin: auto 80px;
+}
+
+input {
+    height: 25px;
+    width: 300px;
+    border-radius: 3px;
+}
+
+.submit {
+    background-color: #02f90c;
+    border-color: #1cc123;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}

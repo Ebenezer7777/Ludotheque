@@ -1,0 +1,48 @@
+.alignementFooter {
+    display: flex;
+}
+
+.Footer {
+    background-color: rgb(33, 126, 143);
+    height: auto;
+    position: fixed;
+}
+
+.F1 {
+    margin: 70px;
+}
+
+.F2 {
+    margin: 70px;
+}
+
+.F3 {
+    margin: 70px;
+}
+
+.iconReseau {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    margin: 20px;
+    font-size: 40px;
+}
+
+footer {
+    background: #ccc;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 50px;
+    height: 50px;
+}
+
+#main {
+    max-width: 1500px;
+    height: 1200px;
+    margin: 0 auto;
+    position: relative;
+}

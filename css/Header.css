@@ -1,0 +1,136 @@
+#searchbar {
+    padding: 25px;
+    border-radius: 10px;
+    width: 30rem;
+    height: 10px;
+    position: inherit;
+}
+
+.body {
+    max-width: 75em;
+    padding: 0 20px;
+    margin: 6em auto 19em;
+    background: rgb(255, 255, 255);
+    color: #333;
+    font: 1.156em/1.3 My Gill Sans, Lato, sans-serif;
+    font-size-adjust: none;
+    font-size-adjust: 0.45;
+    position: relative;
+    box-shadow: 0 .3em 1em #000;
+}
+
+input[type=text] {
+    -webkit-transition: width 0.15s ease-in-out;
+    transition: width 0.15s ease-in-out;
+}
+
+.header {
+    display: flex;
+    height: 6em;
+    align-items: center;
+    position: relative;
+    background-color: rgb(33, 126, 143);
+    ;
+}
+
+.logo {
+    color: rgb(253, 253, 253);
+    margin: 50px;
+    height: 100px;
+    width: 130px;
+}
+
+.right1 {
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+.right0 {
+    color: rgb(255, 255, 255);
+    margin-left: auto;
+    align-items: center;
+}
+
+.center {
+    width: 10px;
+}
+
+.fa-store {
+    font-size: 30px;
+}
+
+.fa-shopping-cart {
+    font-size: 30px;
+}
+
+.fa-arrow-circle-left {
+    font-size: 30px;
+}
+
+.fa-sign-in-alt {
+    font-size: 30px;
+}
+
+.fa-edit {
+    font-size: 30px;
+}
+
+.fa-cubes {
+    font-size: 30px;
+}
+
+.fa-home {
+    font-size: 30px;
+}
+
+.fa-plus-square {
+    font-size: 30px;
+}
+
+.fa-minus-square {
+    font-size: 30px;
+}
+
+.fa-user-alt {
+    font-size: 30px;
+}
+
+.fas {
+    display: inline-block;
+    padding: auto;
+    margin: 10px;
+}
+
+.fa-bars {
+    margin: 10px;
+    font-size: 20px;
+}
+
+a {
+    font-variant: small-caps;
+    font-style: italic;
+    color: white;
+    font-size: 15px;
+    width: 150px;
+    margin: 10px;
+}
+
+a:hover {
+    box-shadow: 0 .3em 1em rgb(68, 0, 255);
+}
+
+a:active {
+    background-color: blanchedalmond;
+}
+
+div {
+    color: rgb(255, 255, 255);
+}
+
+.push {
+    margin-left: auto;
+}
+
+header {
+    background-color: rgb(33, 126, 143);
+}

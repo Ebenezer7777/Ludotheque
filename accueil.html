@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/Header.css" />
+    <link rel="stylesheet" href="./css/Footer.css" />
+    <link rel="stylesheet" href="./css/Article.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/7dbcee25ff.js" crossorigin="anonymous"></script>
+    <title>Bienvenue a la Ludotheque du Plaisir</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./images/logo.png" alt="" style="width: 130px; height: 100px" />
+        </div>
+
+        <div class="right0">
+            <i class="fas fa-home"><a href="./accueil.html">Accueil</a></i>
+        </div>
+        <div>
+            <i class="fas fa-store"><a href="./utilisateur/utilisateur_index.php">Reservation</a></i>
+        </div>
+        <div>
+            <i class="fas fa-shopping-cart"><a href="./utilisateur/booking.php">Mes Emprunts</a></i>
+        </div>
+        <div class="right1">
+            <i class="fas fa-sign-in-alt"><a href="./Inscription/">Sign in/on</a></i>
+        </div>
+    </header>
+    <main>
+        <article>
+            <section style="height: 500px">
+                <div id="slider">
+                    <img src="https://images.unsplash.com/photo-1627855437292-7efeee237b12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGdhbWVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="La forêt de peupliers" id="slide" />
+                    <div id="precedent" onclick="ChangeSlide(-1)">
+                        <i class="fas fa-angle-left"></i>
+                    </div>
+                    <div id="suivant" onclick="ChangeSlide(1)">
+                        <i class="fas fa-angle-right"></i>
+                    </div>
+                </div>
+            </section>
+            <section class="body">
+                <table class="table">
+                    <tr>
+                        <td>
+                            <div class="card">
+                                <h3>Jeux</h3>
+                                <img src="./images/Aventure.png" alt="Avatar" style="width: 375px; height: 300px" />
+                                <div class="container">
+                                    <h4><b></b></h4>
+                                    <a href="./utilisateur/utilisateur_index.php">
+                                        <p>Consulter</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="margin-left:50px; margin-right:50px;">
+                                <p style="text-align: justify ; color: black;">
+                                    <br /><br /> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                                    scrambled it to make a type specimen book.
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </main>
+
+    <br />
+    <div></div>
+    <footer class="Footer">
+        <div class="iconReseau">
+            <!--NOUS SUIVRE SUR LES RESEAUX SOCIAUX-->
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </footer>
+    <script src="./js/Barre_recherche.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/test.js"></script>
+</body>
+
+</html>

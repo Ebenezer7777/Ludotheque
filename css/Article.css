@@ -1,0 +1,83 @@
+body {
+    font-family: "arial", sans-serif;
+    text-align: center;
+}
+
+#slider {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 2em .30em 10em rgb(107, 238, 231);
+}
+
+#slider>img {
+    width: 1200px;
+    height: 500px;
+}
+
+#precedent,
+#suivant {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+    position: absolute;
+    font-size: 100px;
+    color: rgba(9, 8, 17, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+}
+
+#precedent {
+    left: 0;
+}
+
+#suivant {
+    right: 0;
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+h3,
+h4,
+h5 {
+    font-style: oblique;
+    color: black;
+}
+
+p {
+    font-size: 10px;
+    color: blue;
+}
+
+p:active {
+    opacity: 0.2;
+    background: rgb(96, 15, 189);
+}
+
+main {
+    background-image: urlf("http://www.lesprosdemaville.fr/boutiques/photos/ph6609_ECDC030.JPG");
+}
+
+h2 {
+    color: black;
+    text-align: left;
+}
